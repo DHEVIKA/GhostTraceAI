@@ -504,14 +504,6 @@ Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala Engineering College
 
 ---
 
-# 📜 License
-
-This project is released under the MIT License.
-
----
-
-<div align="center">
-
 ### ⭐ If you found this project interesting, consider giving it a Star ⭐
 
 Built with ❤️ using OpenTelemetry, SigNoz and FastAPI.
