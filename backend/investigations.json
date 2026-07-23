@@ -1,0 +1,116 @@
+[
+  {
+    "case_id": "CASE-2974",
+    "incident": "slow_api",
+    "session_id": "ef961dc9-0b76-43b6-8819-45648c883b4e",
+    "trace_id": "b88069c312d30e307fedcf49ffe42e6b",
+    "status": "Completed",
+    "confidence": 95.69,
+    "latency": "4.03 s",
+    "total_tokens": 767,
+    "input_tokens": 509,
+    "output_tokens": 258,
+    "token_cost": 0.000268,
+    "model": "Gemini 2.5 Flash",
+    "tool": "Knowledge API",
+    "tool_status": "Slow",
+    "severity": "Medium",
+    "created_at": "23 Jul 2026 07:25 PM",
+    "timeline": [
+      {
+        "step": "Planner Started",
+        "icon": "\ud83e\udde0",
+        "status": "Started",
+        "timestamp": "19:25:41.924"
+      },
+      {
+        "step": "Planner Finished",
+        "icon": "\u2705",
+        "status": "Completed",
+        "timestamp": "19:25:42.146",
+        "duration": "222 ms"
+      },
+      {
+        "step": "Knowledge API",
+        "icon": "\ud83d\udee0",
+        "status": "Slow",
+        "timestamp": "19:25:42.443",
+        "latency": "2777 ms"
+      },
+      {
+        "step": "Gemini",
+        "icon": "\ud83e\udd16",
+        "status": "Completed",
+        "timestamp": "19:25:45.220",
+        "tokens": 767,
+        "cost": 0.000268,
+        "duration": "596 ms"
+      },
+      {
+        "step": "Validator",
+        "icon": "\u2705",
+        "status": "Approved",
+        "timestamp": "19:25:45.816",
+        "confidence": 95.69,
+        "duration": "140 ms"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-4755",
+    "incident": "healthy",
+    "session_id": "d582b326-7470-4578-8835-f7806984c3ab",
+    "trace_id": "0d61ea0acfc95c24dd24e47e228e73c2",
+    "status": "Completed",
+    "confidence": 99.22,
+    "latency": "1.34 s",
+    "total_tokens": 395,
+    "input_tokens": 288,
+    "output_tokens": 107,
+    "token_cost": 0.000138,
+    "model": "Gemini 2.5 Flash",
+    "tool": "Knowledge API",
+    "tool_status": "Healthy",
+    "severity": "Low",
+    "created_at": "23 Jul 2026 07:30 PM",
+    "timeline": [
+      {
+        "step": "Planner Started",
+        "icon": "\ud83e\udde0",
+        "status": "Started",
+        "timestamp": "19:30:53.022"
+      },
+      {
+        "step": "Planner Finished",
+        "icon": "\u2705",
+        "status": "Completed",
+        "timestamp": "19:30:53.233",
+        "duration": "211 ms"
+      },
+      {
+        "step": "Knowledge API",
+        "icon": "\ud83d\udee0",
+        "status": "Healthy",
+        "timestamp": "19:30:53.661",
+        "latency": "144 ms"
+      },
+      {
+        "step": "Gemini",
+        "icon": "\ud83e\udd16",
+        "status": "Completed",
+        "timestamp": "19:30:53.805",
+        "tokens": 395,
+        "cost": 0.000138,
+        "duration": "412 ms"
+      },
+      {
+        "step": "Validator",
+        "icon": "\u2705",
+        "status": "Approved",
+        "timestamp": "19:30:54.217",
+        "confidence": 99.22,
+        "duration": "150 ms"
+      }
+    ]
+  }
+]
