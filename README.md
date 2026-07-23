@@ -1,12 +1,5 @@
 # 👻 GhostTrace AI
 
-<div align="center">
-
-![GhostTrace AI](https://img.shields.io/badge/OpenTelemetry-Native-blue)
-![SigNoz](https://img.shields.io/badge/SigNoz-Self--Hosted-success)
-![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
-![React](https://img.shields.io/badge/React-TypeScript-61DAFB)
-![License](https://img.shields.io/badge/License-MIT-orange)
 
 ### AI Investigation & Observability Platform
 
@@ -432,25 +425,31 @@ Returns executive AI report.
 
 ## Dashboard
 
-> Add dashboard screenshot here
+<img width="1895" height="872" alt="Dashboard" src="https://github.com/user-attachments/assets/78c03b6a-4336-4d4e-9005-a2e5caa563ac" />
+
+
+
 
 ---
 
 ## AI Investigation Replay
 
-> Add replay screenshot here
+<img width="772" height="496" alt="AI Investigation Replay" src="https://github.com/user-attachments/assets/3b6796f5-fb9d-4ce5-9190-4f3f28796dd6" />
 
 ---
 
 ## Executive Report
 
-> Add report screenshot here
+<img width="1917" height="725" alt="Executive Report" src="https://github.com/user-attachments/assets/5c9e9b0e-e44e-4fcd-8409-c830019ae187" />
+
 
 ---
 
 ## Architecture
 
-> Add architecture image here
+<img width="540" height="691" alt="Architecture1" src="https://github.com/user-attachments/assets/44c0953c-7186-47c8-939f-0a8fd1b0d6e6" />
+
+<img width="792" height="506" alt="Architecture2" src="https://github.com/user-attachments/assets/dcf86597-08a1-4332-967f-1f56b58e296e" />
 
 ---
 
